@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Tutorial_Tablet_FragmentActivity!</string>
+    <string name="app_name">Tutorial_Tablet_Fragment</string>
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ToggleButton
+        android:id="@+id/ToggleButton1"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"   
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="ToggleButton" />
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ToggleButton1"
+        android:layout_alignBottom="@+id/ToggleButton1"
+        android:layout_alignParentLeft="true"
+        android:text="Time"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/TextView1"
+        android:layout_toRightOf="@+id/TextView1"
+        android:text="Sun"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

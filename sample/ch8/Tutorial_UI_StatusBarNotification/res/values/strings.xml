@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tutorial_UI_StatusBarNotification</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="notification_title">notification_title</string>
+    <string name="notification_info_fail">notification_info_fail</string>
+    <string name="notification_info_success">notification_info_success</string>
+    
+    
+
+</resources>

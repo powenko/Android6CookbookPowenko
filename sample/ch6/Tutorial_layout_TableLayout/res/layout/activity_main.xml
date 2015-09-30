@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+   android:layout_width="fill_parent" android:layout_height="fill_parent"
+   android:stretchColumns="1">
+   <TableRow> 
+       <TextView android:layout_column="1" android:text="Open..." />
+       <TextView android:text="Ctrl-O" android:gravity="right" />
+   </TableRow> 
+   <TableRow> 
+       <TextView android:layout_column="1" android:text="Save..." />
+       <TextView android:text="Ctrl-S" android:gravity="right" />
+   </TableRow> 
+   <View android:layout_height="2dip" android:background="#FF909090" /> 
+   <TableRow> 
+       <TextView android:text="(X)" />
+       <TextView android:text="Save As..." />
+       <TextView android:text="Ctrl-E" android:gravity="right" />
+   </TableRow> 
+   <View android:layout_height="2dip" android:background="#FF909090" /> 
+   <TableRow> 
+       <TextView android:layout_column="1" android:text="Close"
+           android:padding="3dip" />
+   </TableRow> 
+</TableLayout>

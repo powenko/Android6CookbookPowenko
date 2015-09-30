@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+ 
+    <SlidingDrawer
+        android:id="@+id/SlidingDrawer1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp"
+        android:content="@+id/content"
+        android:handle="@+id/handle" >
+ 
+        <Button
+            android:id="@+id/handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Handle" />
+ 
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:orientation="vertical"
+            android:background="#00FF00">
+            
+            <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="30dp"
+	        android:layout_marginLeft="42dp"
+	        android:textSize="25dp"
+	        android:text="Right to Left" />
+            
+  <CheckBox 
+                android:id="@+id/checkBox1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginTop="20dp"
+	        android:text="Apple"
+	        android:textSize="17dp"
+                />
+            
+	    <CheckBox 
+                android:id="@+id/checkBox2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginTop="10dp"
+	        android:text="Banana"
+	        android:textSize="17dp"
+                />
+             
+	    <CheckBox 
+                android:id="@+id/checkBox3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginTop="10dp"
+	        android:text="powenko.com"
+	        android:textSize="17dp"
+                />
+            
+        </LinearLayout>
+    </SlidingDrawer>
+ 
+</RelativeLayout>

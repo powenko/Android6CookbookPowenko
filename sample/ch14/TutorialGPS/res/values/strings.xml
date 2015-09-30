@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, TutorialGPS</string>
+  <string name="app_name">TutorialGPS</string>
+  <string name="str_longitude">(Longitude)：</string>
+  <string name="str_latitude">(Latitude)：</string>
+  <string name="str_err_address">找不到</string>
+  <string name="str_err_location">找不到Location</string>
+  <string name="str_my_location">地址：</string>
+</resources>

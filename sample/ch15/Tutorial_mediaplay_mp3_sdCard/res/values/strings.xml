@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tutorial_mediaplay_mp3_sdCard</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+	<string name="play_str">PLAY</string>
+	<string name="pause_str">PAUSE</string>
+</resources>

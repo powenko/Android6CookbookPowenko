@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_powen1"
+          android:icon="@drawable/icon"
+          android:title="Home"
+          android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/menu_powen2"
+          android:icon="@drawable/icon"
+          android:title="Page2"
+          android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/menu_powen3"
+          android:icon="@drawable/icon"
+          android:title="Page3"
+          android:showAsAction="ifRoom|withText" />
+
+   <item android:id="@+id/menu_search"   
+        android:title="Search"  
+        android:icon="@android:drawable/ic_menu_search"   
+        android:showAsAction="ifRoom|withText"  
+        android:actionViewClass="android.widget.SearchView"   
+        />  
+</menu>

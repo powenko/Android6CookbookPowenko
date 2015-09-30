@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.looptek.AndroidOpenGLESPowenko"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".AndroidOpenGLESPowenko"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+
+    <activity android:name="TutorialPart001"></activity> 
+    <activity android:name="TutorialPart002"></activity> 
+    <activity android:name="TutorialPart003"></activity> 
+    <activity android:name="TutorialPart004"></activity> 
+    <activity android:name="TutorialPart005"></activity> 
+    <activity android:name="TutorialPart006"></activity>     
+    <activity android:name="TutorialPart007"></activity>     
+    <activity android:name="TutorialPart008"></activity>     
+    <activity android:name="TutorialPart009"></activity>   
+    <activity android:name="TutorialPart010"></activity>   
+    <activity android:name="TutorialPart011"></activity> 
+    
+    
+    </application>
+    <uses-sdk android:minSdkVersion="3" />
+
+</manifest> 

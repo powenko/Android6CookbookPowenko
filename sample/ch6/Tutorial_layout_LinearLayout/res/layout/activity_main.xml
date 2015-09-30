@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical" 
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent">
+  <LinearLayout 
+   android:orientation="vertical" 
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:background="#666666"
+   android:layout_weight="2"> 
+   <TextView
+       android:text="Powenko.com"
+       android:textSize="15pt"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+    /> 
+   </LinearLayout> 
+   <LinearLayout 
+   android:orientation="horizontal" 
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:layout_weight="1"> 
+    
+   <TextView 
+       android:text="red"
+       android:gravity="center_horizontal"
+       android:background="#aa0000"
+       android:layout_width="wrap_content"
+       android:layout_height="fill_parent"
+       android:layout_weight="1"
+    /> 
+   <TextView 
+       android:text="green"
+       android:gravity="center_horizontal"
+       android:background="#00aa00"
+       android:layout_width="wrap_content"
+       android:layout_height="fill_parent"
+       android:layout_weight="1"
+    />   
+   </LinearLayout>
+</LinearLayout>

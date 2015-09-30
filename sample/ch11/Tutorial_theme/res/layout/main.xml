@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:orientation="vertical"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     >
+
+ <RadioGroup
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<RadioButton 
+    android:text="Large Text" 
+    android:id="@+id/textSizeLarge" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+</RadioButton>
+<RadioButton 
+    android:text="Small Text" 
+    android:id="@+id/textSizeSmall" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+</RadioButton>
+ </RadioGroup>
+ <TextView  
+      android:id="@+id/title" 
+style="?textTitle" 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:text="Select the size of the text"
+     />
+
+ </LinearLayout>

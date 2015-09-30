@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+<TextView  	
+    android:id="@+id/myTextView"
+    android:layout_width="200px" 
+    android:layout_height="22px"      
+    android:text="@string/hello"
+    android:textSize="20px"
+    />      
+<EditText 
+    android:id="@+id/myEditText"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="your name"
+    />      
+    
+
+<RadioGroup
+    android:id="@+id/myRadioGroup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_x="50px"
+	android:layout_y="22px"
+    >
+  
+    <RadioButton
+      android:id="@+id/myRadioButton1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+	  android:text="apple"
+	  android:checked="true"	  
+	  android:textSize="12sp"
+    />
+   
+    <RadioButton
+      android:id="@+id/myRadioButton2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+	  android:text="banana"
+	  android:checked="false"	  
+	  android:textSize="12sp"
+    />
+       
+</RadioGroup>        
+</LinearLayout>

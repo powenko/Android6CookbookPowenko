@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Tutorial_mediaplay_mp3_rawActivity!</string>
+    <string name="app_name">Tutorial_mediaplay_mp3_raw</string>
+	<string name="play_str">PLAY</string>
+	<string name="pause_str">PAUSE</string>
+</resources>

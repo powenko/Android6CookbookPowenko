@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   >
+<EditText 
+   android:text="PowenKo.com"
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content" 
+/>
+
+<Button
+    android:layout_width="150px"
+    android:layout_height="wrap_content"
+    android:layout_x="188dp"
+    android:layout_y="30dp"
+    android:text="Button" />
+<TextView 
+   android:text="textview"
+   android:textColor="#0000ff" 
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+/>  
+</AbsoluteLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <TextView  
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="layout-land"    
+        android:layout_x="1px"
+        android:layout_y="1px"
+    />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150px"
+        android:layout_height="60px"
+        android:text="Button"
+        android:layout_x="280px"
+        android:layout_y="180px"
+        />
+</AbsoluteLayout>

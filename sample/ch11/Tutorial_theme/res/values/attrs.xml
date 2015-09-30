@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <resources>
+       <!-- View styles -->
+       <attr name="textTitle" format="reference" />
+       <attr name="textBody" format="reference" />
+  </resources>

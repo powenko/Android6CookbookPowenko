@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hi! This is Powen Ko OpenGL ES sample code, please press Menu, http://www.powenko.com</string>
+    <string name="app_name">AndroidOpenGLESPowenko</string>
+</resources>
